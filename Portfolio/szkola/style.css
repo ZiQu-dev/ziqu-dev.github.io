@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body {
+    background: #f2709c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2709c, #ff9472);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2709c, #ff9472);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.teksto {
+    z-index: 2;
+    height: 200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    z-index: 2;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+    font-size: 3em;
+}
+
+.text1 {
+    z-index: 2;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+    font-size: 3em;
+    margin-top: -5%;
+}
+
+.abotak {
+    z-index: 2;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+    background-color: white;
+}
