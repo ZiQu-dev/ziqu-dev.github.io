@@ -557,6 +557,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 16rem;
 }
 
+.p-60 {
+  padding: 15rem;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -568,6 +580,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .leading-6 {
@@ -674,6 +691,14 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:w-4\/6 {
+    width: 66.666667%;
+  }
+
+  .md\:p-64 {
+    padding: 16rem;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
